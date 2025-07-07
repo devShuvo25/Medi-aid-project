@@ -164,10 +164,17 @@ margin-right:100px;
 .common-rating{
     align-items: center;
 }
+.rat-container h1{
+margin: 0;
+}
+.rat-container h4{
+margin: 10px 0 0 0;
+}
 .common-rating i{
     font-size: 30px;
     color: #39B5A4;
 }
+
 .doctor-title{
     display: flex;
     justify-content: center;
@@ -254,6 +261,7 @@ background:linear-gradient(to left,#355F75, #62AEC2);
 .footer-desc {
     margin-top: 10px;
     font-size: 15px;
+    color: #FFFF;
 }
 .footter{
     text-align: center;
@@ -263,11 +271,16 @@ background:linear-gradient(to left,#355F75, #62AEC2);
 footer h4{
     color: #ffff;
     margin-bottom: 10px;
+    font-size: 1.5em;
 }
 .tertiary li{
     margin:0;
     padding: 3px 0;
 }
 footer a{
-    /* color: #39B5A4; */
+    color:#FFFF;
+}
+footer a:hover{
+    color: #562378;
+    transition: 0.3s ease-in;
 }
